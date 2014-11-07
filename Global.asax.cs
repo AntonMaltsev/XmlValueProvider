@@ -31,7 +31,7 @@ namespace MyAppUtils
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
             //Add Custom xmlValueProvider
-            ValueProviderFactories.Factories.Add(new Utils.XmlValueProviderFactory());
+            ValueProviderFactories.Factories.Add(new XmlValueProviderFactory());
             
         }
 
